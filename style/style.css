@@ -1,0 +1,26 @@
+body {
+	background-color: #CAC09C;
+}
+
+h1,h3{
+	font-family: Calibri,sans-serif;
+	font-weight: 400;
+}
+
+h1 {
+	text-align: center;
+}
+
+h3 {
+	color: #675E3D;
+}
+
+#content {
+	background-color: #ededed;
+	padding: 2em;
+	margin: 0 auto;
+	height: 500px;
+	width: 800px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px 0px rgba(50,50,50,0.4);
+}
