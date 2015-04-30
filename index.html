@@ -3,14 +3,21 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="style/style.css">
   <title>Base for Hangman, using SVG and JavaScript</title>
 </head>
 <body>
 
-<p>Review the <a href="hangman.js">sourcecode of the JavaScript-file</a>, then open up the console in the developer tool to do the magic to hide/show individual parts of the SVG-image.</p>
+<div id="leftish">
+<p>Characters</p>
+<div id="characters"></div>
+<p>Guess the word</p>
+<div id="hangwords"></div>
+<p>Tried characters</p>
+<div id="tried"></div>
+</div>
 
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
+<div id="rightish">
 <svg
    xmlns="http://www.w3.org/2000/svg"
    width="400"
@@ -492,7 +499,8 @@
        width="11.75" />
   </g>
 </svg>
-
+</div>
 <script src="js/hangman.js"></script>
+
 </body>
 </html>
