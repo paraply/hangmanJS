@@ -1,4 +1,4 @@
-(function(){
+window.Hangman =(function(){
     'use strict';
 
     var characterdiv = document.getElementById('characters');
